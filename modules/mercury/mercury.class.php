@@ -1175,7 +1175,7 @@ if ($Cos[0]) {sg($objname.'.Cos3',$Cos[3]); $sql['Cos3']=$Cos[3];}
 # Напряжение по фазам
 # =====================================================
 $Uv = $this->merc_gd($socket252,$this->calcCRC($device252,"081611"), 0.01);
-debmes( "request: 081611 result: ".$Uv, 'mercury');
+//debmes( "request: 081611 result: ".$Uv, 'mercury');
 $debug .= "Uv: $Uv[0] - $Uv[1] - $Uv[2]<br>";
 debmes( $debug, 'mercury');
 
